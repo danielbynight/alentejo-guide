@@ -1,0 +1,27 @@
+@mixin background-color-transition() {
+  -moz-transition: background-color .2s ease-in-out;
+  -o-transition: background-color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out;
+}
+
+@mixin color-transition() {
+  -moz-transition: color .2s ease-in-out;
+  -o-transition: color .2s ease-in-out;
+  -webkit-transition: color .2s ease-in-out;
+}
+
+$white: #fff;
+$purple: #7D0091;
+$black: #000;
+$light-gray: #d3d3d3;
+$dark-gray: #636363;
+
+$primary-colour: $purple;
+$light-primary-colour: lighten($primary-colour, 10);
+
+$secondary-colour: $white;
+$dark-secondary-colour: lighten($primary-colour, 55);
+
+$text-colour: $black;
+
+$shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1)

@@ -1,0 +1,13 @@
+@mixin zoom {
+  transition: transform .2s ease-in-out;
+  &:hover {
+    transform: scale(1.06);
+  }
+}
+
+@mixin mega-zoom {
+  transition: transform .4s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
+}

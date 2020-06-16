@@ -1,0 +1,18 @@
+// Small tablets and large smartphones (landscape view)
+$screen-s: 576px;
+
+// Small tablets (portrait view)
+$screen-m: 768px;
+
+// Tablets and small desktops
+$screen-l: 992px;
+
+// Large tablets and desktops
+$screen-xl: 1200px;
+
+
+@mixin breakpoint($min-value) {
+   @media (min-width: $min-value) {
+       @content;
+   }
+}
