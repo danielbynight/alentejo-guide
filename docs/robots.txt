@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Host: porto.controlledflame.com
+Sitemap: https://porto.controlledflame.com/sitemap.xml
