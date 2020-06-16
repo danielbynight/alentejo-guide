@@ -9,7 +9,7 @@ const App: React.FunctionComponent = () => (
     <Body>
         <JumboTitle>Guia do Daniel para o Alentejo</JumboTitle>
         <Text>
-            <p>Uma vez que frequentemente me perguntam o que visitar em redor de Montemor-o-Novo, aqui está o meu guia.</p>
+            <p>Uma vez que frequentemente me perguntam o que visitar pela zona do Alentejo onde cresci, aqui está o meu guia.</p>git ci
         </Text>
     </Body>
 )
